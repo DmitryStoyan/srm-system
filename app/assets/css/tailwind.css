@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- CSS VARIABLES (HSL) ---------- */
+
+@layer base {
+  :root {
+    --background: 222 47% 8%; /* #0b1120 */
+    --foreground: 222 30% 92%;
+
+    --muted: 215 27% 17%; /* #202937 */
+    --muted-foreground: 215 20% 65%;
+
+    --popover: 0 0% 55%;
+    --popover-foreground: 222 30% 92%;
+
+    --card: 222 47% 12%; /* #0e172a */
+    --card-foreground: 222 30% 92%;
+
+    --border: 215 27% 17%; /* #202937 */
+    --input: 215 27% 17%; /* #202937 */
+    --sidebar: 222 47% 12%; /* #0e172a */
+
+    --primary: 282 47% 55%; /* #a252c8 */
+    --primary-foreground: 0 0% 96%; /* #f5f5f5 */
+
+    --secondary: 215 27% 17%; /* #202937 */
+    --secondary-foreground: 222 30% 92%;
+
+    --accent: 222 30% 92%;
+    --accent-foreground: 222 30% 92%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 222 30% 92%;
+
+    --ring: 215 27% 17%; /* #202937 */
+
+    --radius: 0.5rem;
+  }
+}
+
+/* ---------- BASE STYLES ---------- */
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground text-base;
+    font-family: "Lato", sans-serif;
+  }
+}
