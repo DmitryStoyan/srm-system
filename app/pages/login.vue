@@ -20,6 +20,7 @@ const nameRef = ref('');
         <UiInput v-model="passwordRef" type="password" placeholder="Password" class="mb-3" />
         <UiInput v-model="nameRef" placeholder="Name" class="mb-3" />
         <div class="flex items-center justify-center gap-5">
+          <UiButton color="bg-[#fff]">Кнопка</UiButton>
           <UiButton>Кнопка</UiButton>
         </div>
       </form>
