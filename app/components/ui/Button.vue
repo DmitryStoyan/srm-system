@@ -35,7 +35,7 @@ const classes = computed(() => [
 
   props.color,
 
-  !props.color && props.variant === "primary" && "bg-blue-600 text-white hover:bg-blue-700",
+  !props.color && props.variant === "primary" && "bg-gray-600 text-white hover:bg-gray-700",
   !props.color && props.variant === "secondary" && "bg-gray-200 text-gray-800 hover:bg-gray-300",
   !props.color && props.variant === "outline" && "border border-white text-white hover:bg-white/10",
   !props.color && props.variant === "danger" && "bg-red-600 text-white hover:bg-red-700",

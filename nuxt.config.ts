@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@nuxt/image",
     "@nuxt/icon",
+    "@pinia/nuxt",
     [
       "@nuxtjs/google-fonts",
       {
@@ -34,5 +35,8 @@ export default defineNuxtConfig({
         process.env.NUXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
       firebaseAppId: process.env.NUXT_PUBLIC_FIREBASE_APP_ID,
     },
+  },
+  pinia: {
+    storesDirs: ["./store/**"],
   },
 });
