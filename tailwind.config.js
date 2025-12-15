@@ -19,6 +19,7 @@ export default {
         "muted-foreground": "hsl(var(--muted-foreground))",
         card: "hsl(var(--card))",
         "card-foreground": "hsl(var(--card-foreground))",
+        sidebar: "hsl(var(--sidebar))",
       },
     },
   },
